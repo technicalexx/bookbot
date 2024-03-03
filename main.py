@@ -6,7 +6,6 @@ def main():
     # print(f"There are {word_count} words in this text.")
     char_count = count_characters(text)
     # print(char_count)
-    # print
     chars_in_sorted_list = chars_dict_to_sorted_list(char_count)
 
     print(f"\nHere is the analysis of {book_path}:")
