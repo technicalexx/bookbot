@@ -42,5 +42,4 @@ def chars_dict_to_sorted_list(num_chars_dict):
     sorted_list.sort(key=lambda item: item["num"], reverse=True)
     return sorted_list
 
-
 main()
